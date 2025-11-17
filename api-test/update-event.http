@@ -1,0 +1,9 @@
+PUT http://localhost:3000/events/5
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QzQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYzMjA5Mzg2LCJ1c2VySUQiOjN9.GSMRxWz5LRdsle_VYbRo2Tb8Fmpvd2F-cg30Ixvwrmo
+
+{
+    "name": "Updated Test Event",
+    "description": "An updated test event",
+    "location": "An updated test location"
+}

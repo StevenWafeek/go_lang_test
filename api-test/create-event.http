@@ -1,0 +1,10 @@
+### create event
+POST http://localhost:3000/events
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NjMyMDkxODYsInVzZXJJRCI6MX0.w2rZ-PGk6uZrS0QoedJwSgg1Mop3BwGcE99aZryGRtc
+
+{
+    "name": "Test Event",
+    "description": "A test event",
+    "location": "A test location"
+}
